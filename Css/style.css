@@ -1,0 +1,361 @@
+/* All Common CSS Starts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+/* All Common CSS Ends */
+
+/* Header Part Start */
+
+
+/* Header Part Ends */
+
+
+
+
+
+/* Banner Part Start */
+.cbtn {
+    border-radius: 28px;
+    padding: 20px 38px;
+    background: #8454F5;
+    color: white;
+}
+
+#BannerPart {
+    padding-top: 270px;
+    padding-bottom: 250px;
+    background-image: url(../Images/Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.bannertext h1 {
+    color: #1D354F;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.bannertext p {
+    color: #29313D;
+    font-size: 18px;
+    padding: 38px 0px;
+    font-weight: normal;
+    line-height: 200%;
+}
+
+.common_title h3 {
+    font-weight: 600;
+    font-size: 48px;
+    color: #29313D;
+}
+
+.service-items {
+    background: #FDFDFD;
+    padding: 20px;
+}
+
+.service-items h3 {
+
+
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color: #29313D;
+    line-height: 200%;
+
+}
+
+.service-items p {
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Nunito", serif;
+    color: #29313D;
+    line-height: 160%;
+
+}
+
+.service-items a {
+
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Nunito", serif;
+    color: #29313D;
+    line-height: 140%;
+
+}
+
+.cmt {
+    margin-top: 50px;
+}
+
+.service-items .itemboxs {
+    border-radius: 30px;
+    height: 100px;
+    width: 100px;
+    background: #C4C4C4;
+}
+
+.service_flex {
+    display: flex;
+}
+
+/* Banner Part Ends */
+
+/* Service Part Start */
+
+/* Service Part Ends */
+
+
+
+/* Lauch Part Start */
+#LaunchPart {
+    padding-top: 250px;
+    padding-bottom: 120px;
+}
+
+.mainimg {
+    position: relative;
+}
+
+.subimg img {
+    height: 100%;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.launch_text {
+    /* margin-left: 20px; */
+}
+
+.launch_text h3 {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Nunito", serif;
+    line-height: 140%;
+    color: #29313D;
+    padding-right: 100px;
+}
+
+.launch_text p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Nunito", serif;
+    line-height: 200%;
+    color: #29313D;
+    padding-right: 350px;
+}
+
+
+.txt_boxes {
+    /* margin-left: 20px; */
+}
+
+.txt_box {
+    height: 100px;
+    width: 100px;
+    background: #C4C4C4;
+    border-radius: 30px;
+    margin-top: 50px;
+
+}
+
+.txt_boxes h3 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 140%;
+    padding: 20px 0px;
+
+
+}
+
+.txt_boxes p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 200%;
+
+
+
+}
+
+.txt_boxes a {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 0px;
+    color: #29313D;
+
+
+
+
+}
+
+/* Lauch Part Ends */
+
+/* Subcription Part Start */
+#Subscription_Part{
+    padding:40px 0px;
+}
+.trailTop{
+    text-align: center;
+    margin-bottom:50px;
+}
+
+.trailTop h4{
+    font-family: "Poppins", serif;
+    font-size:48px;
+    font-weight:600;
+    color:#29313D;
+    text-transform: capitalize;
+    line-height: 140%;
+    margin-bottom:20px;
+}
+
+.trailTop p{
+    font-family: "Nunito", serif;
+    font-size:18px;
+    font-weight:400;
+    line-height: 200%;
+    color:#29313D;
+    padding-bottom: 50px;
+}
+
+.trailmiddle{
+    padding-top:30px;
+    padding-bottom: 30px;
+    display: inline;
+}
+
+.trailmiddleheading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.trailmiddleheading h4{
+    font-family: "Poppins", serif;
+    font-size:20px;
+    font-weight:500;
+    color:#29313D;
+    text-align: center;
+    margin-bottom:22px;
+    border-bottom: 5px solid #6A55EA;
+    max-width: 85px;
+    padding-bottom: 10px;
+    position:relative;
+    transition:all 0.5s ease;
+}
+
+.trailmiddleheading h4:hover{
+    color:#8454F5;
+}
+
+.trailmiddlepricing{
+    display: inline;
+
+}
+
+.trailmiddlepricing i{
+    padding: 20px 0;
+}
+.trailmiddleheading h6 {
+    font-family: "Poppins", serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 140%;
+    color: #29313D;
+    display: inline-block;
+    margin-right:30px;
+    margin-top: 20px;
+    transition:all 0.5s ease;
+}
+
+.trailmiddleheading h6:hover{
+    color:#6A55EA;
+}
+
+.trailmidbtn {
+    padding: 10px 15px;
+    background: #6A55EA;
+    margin-top: -20px;
+    border-radius: 10px;
+    transition:all 0.5s ease;
+}
+
+.trailmidbtn:hover{
+    background: #29313D;
+    color:#fff;
+}
+.trailmidbtn a{
+    color:#fff;
+}
+
+/* Subscription Part Ends */
+
+/* Footer part Start */
+#Footer_Part{
+    padding: 50px 0;
+}
+.footdes{
+    padding-top: 50px;
+    font-size: 18px;
+    font-family: "Nunito", serif;
+    line-height: 180%;
+}
+
+.Footerheadings{
+    padding-bottom:50px;
+    margin-left: -50px;
+}
+.Footerheadings2{
+    padding-bottom:50px;
+    margin-left: -80px;
+}
+
+.foooter1 li{
+    padding-bottom: 20px;
+    margin-left: -80px;
+
+}
+
+/* Footer part End */
+
+/* Header Part Start */
+/* Header Part Ends */
+
+
+
+/* Header Part Start */
+/* Header Part Ends */
+
+/* Header Part Start */
+/* Header Part Ends */
