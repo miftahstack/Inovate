@@ -219,7 +219,68 @@ ol {
 
 }
 
+/* App Showcase Part Start */
+#App-Showcase{
+    padding: 150px 0px;
+    background: #F8FDFE;
+}
+
+.showcase_boxes_flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.showcase_boxes{
+    padding:357.5px 165px;
+    background: #C4C4C4;
+    border-radius: 20px;
+    margin: 0px 10px;
+}
+
+.Shoecase_heading{
+    text-align: center;
+}
+.Shoecase_heading h3{
+color: #29313D;
+font-weight: 600;
+font-size: 48px;
+padding-bottom: 40px;
+}
+.Shoecase_heading p{
+color: #29313D;
+font-weight: 300;
+font-size: 18;
+padding-bottom: 70px;
+}
+
+.Boxes_button_flex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+.Boxes_button{
+    
+    width: 12px;
+    height: 12px;
+    background: rgba(105, 85, 234, 0.3);
+    border-radius: 50%;
+}
+.Boxes_button_diff{
+    width: 12px;
+    height: 12px;
+    background: #6A55EA;
+    border-radius: 50%;
+}
+
+
+/* App Showcase Part Ends */
+
+
+
 /* Lauch Part Ends */
+
+
 
 /* Subcription Part Start */
 #Subscription_Part{
