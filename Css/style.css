@@ -19,7 +19,6 @@ p {
 a,
 a:hover {
     text-decoration: none;
-    display: inline-block;
 }
 
 ul,
@@ -218,6 +217,8 @@ ol {
 
 
 }
+/* Lauch Part Ends */
+
 
 /* App Showcase Part Start */
 #App-Showcase{
@@ -272,13 +273,59 @@ padding-bottom: 70px;
     background: #6A55EA;
     border-radius: 50%;
 }
-
-
 /* App Showcase Part Ends */
 
 
+/* Trusted Companies Part Start */
+#Trusted_Companies{
+    padding: 150px;
+}
 
-/* Lauch Part Ends */
+.Companies_heading{
+    display: flex;
+    justify-content: space-between;
+}
+.Companies_heading h3{
+    font-family: "Poppins", serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 130%;
+}
+.companiesbtn{
+    height: 65px;
+    width: 150px;
+    background: #8454F5;
+    border-radius: 25px;
+    color: #FDFDFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Companies_img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+
+}
+.CompaniesImg_Frames{
+    /* padding: 55px 105px; */
+    height: 110px;
+    width: 210px;
+    background: #F3F7FD;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Trusted CompaniesPart Ends */
+
+
+
+
 
 
 
