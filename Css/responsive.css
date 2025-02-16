@@ -1,0 +1,99 @@
+/* Extra large devices  */
+@media (min-width: 1200px) {
+    .navbar {
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+    }
+}
+
+/* Large devices  */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Medium devices  */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Small devices  */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Extra small devices  */
+@media (max-width: 575.98px) {
+
+
+    /* NavBar Start */
+
+    .navbar-toggler i {
+        font-size: 20px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        text-align: center;
+        padding: 30px 0px !important;
+        list-style: none;
+
+    }
+
+    #BannerPart {
+        padding-top: 110px;
+        padding-bottom: 30px;
+    }
+
+    .bannertext h1 {
+        color: #1D354F;
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .bannertext p {
+        color: #29313D;
+        font-size: 12px;
+        padding: 30px 0px;
+        font-weight: normal;
+        line-height: 200%;
+    }
+
+    .cbtn {
+        border-radius: 15px;
+        padding: 12px 18px;
+        background: #8454F5;
+        color: white;
+        font-size: 12px;
+    }
+
+    /* NavBar Ends */
+
+    /* Service Part Start */
+
+    .common_title h3 {
+        font-weight: 600;
+        font-size: 45px;
+        color: #29313D;
+    }
+
+    .service-items {
+        background: #FDFDFD;
+        padding: 12px;
+    }
+
+    .service-items .itemboxs {
+        border-radius: 25px;
+        height: 100px;
+        width: 100px;
+        background: #C4C4C4;
+    }
+    .service-items p {
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "Nunito", serif;
+        color: #29313D;
+        line-height: 160%;
+    }
+    
+
+    /* Service Part Ends */
+
+}

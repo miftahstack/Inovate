@@ -28,22 +28,36 @@ ol {
 
 /* All Common CSS Ends */
 
-/* Header Part Start */
+/* NavBar Part Start */
 
 
-/* Header Part Ends */
+
+.nav-item{
+    padding: 0 15px;
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-link i {
+margin-left: 5px;
+}
+
+.cbtn {
+    border-radius: 20px;
+    padding: 20px 38px;
+    background: #8454F5;
+    color: white;
+}
+
+/* NavBar Part Ends */
 
 
 
 
 
 /* Banner Part Start */
-.cbtn {
-    border-radius: 28px;
-    padding: 20px 38px;
-    background: #8454F5;
-    color: white;
-}
+
 
 #BannerPart {
     padding-top: 270px;
