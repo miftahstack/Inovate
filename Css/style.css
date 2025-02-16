@@ -136,7 +136,7 @@ ol {
 
 /* Lauch Part Start */
 #LaunchPart {
-   padding: 150px;
+    padding: 150px;
 }
 
 .mainimg {
@@ -199,8 +199,9 @@ ol {
     padding: 20px 0px;
     color: #29313D;
 }
-.Launch_Section_Bottom{
-    margin-bottom:70px;
+
+.Launch_Section_Bottom {
+    margin-bottom: 70px;
 }
 
 /* Lauch Part Ends */
@@ -426,6 +427,168 @@ ol {
 }
 
 /* Subscription Part Ends */
+
+/* Recent Post part Start */
+#Recent_Post {
+    padding: 180px;
+}
+
+.Recent_heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Follow_heading_links {
+    display: flex;
+    align-items: center;
+}
+
+.Follow_heading_links h4 {
+    color: #29313D;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    padding-right: 40px;
+}
+
+.Follow_heading_links i {
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #6A55EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.Recent_heading h3 {
+    color: #29313D;
+    font-weight: 600;
+    font-size: 48px;
+    font-family: "Poppins", serif;
+    padding-bottom: 60px;
+}
+
+.RecentBoxes {
+    background: #C4C4C4;
+    padding: 160px 100px;
+    border-radius: 20px;
+}
+
+.Post_Para {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Post_Para h4 {
+    color: #29313D;
+    font-weight: 600;
+    font-size: 34px;
+    font-family: "Poppins", serif;
+    text-transform: capitalize;
+    line-height: 130%;
+}
+
+.Post_Para p {
+    color: #29313D;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Poppins", serif;
+    text-transform: capitalize;
+    line-height: 130%;
+    padding-right: 70px;
+}
+
+.Recent_Heading_Para {
+    display: flex;
+    align-items: center;
+
+}
+
+.Recent_Heading_Para_Box {
+    height: 60px;
+    width: 60px;
+    background: #C4C4C4;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.Recent_Heading_Para_text h4 {
+    color: #29313D;
+    font-weight: 600;
+    font-size: 28px;
+    font-family: "Poppins", serif;
+}
+
+.Recent_Heading_Para_text p {
+    color: #29313D;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: "Poppins", serif;
+    padding-top: 5px;
+}
+
+.ROW_PADDING {
+    padding-top: 25px;
+}
+
+.Post_right {
+    padding-left: 70px;
+}
+
+.Post_right_heading {
+    display: flex;
+
+}
+
+.Post_right h3 {
+    color: #29313D;
+    font-weight: 300;
+    font-size: 23px;
+    font-family: "Poppins", serif;
+    padding: 10px 0px 20px 10px;
+    
+}
+
+
+.Post_right_boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Post_right_box {
+    height: 165px;
+    width: 165px;
+    background: #C4C4C4;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+
+.recentbtn {
+    height: 60px;
+    width: 150px;
+    background: #6A55EA;
+    color: white;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+/* Recent Post part Start */
+
+
 
 /* Talk part Start */
 #Talk_Part {
