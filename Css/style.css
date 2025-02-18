@@ -143,7 +143,9 @@ margin-left: 5px;
 /* Banner Part Ends */
 
 /* Service Part Start */
-
+#SevicePart{
+    padding: 100px 0px;
+}
 /* Service Part Ends */
 
 
@@ -284,7 +286,7 @@ margin-left: 5px;
 
 /* Trusted Companies Part Start */
 #Trusted_Companies {
-    padding: 150px;
+    padding: 150px 0px;
 }
 
 .Companies_heading {
@@ -444,7 +446,7 @@ margin-left: 5px;
 
 /* Recent Post part Start */
 #Recent_Post {
-    padding: 180px;
+    padding: 180px 0px;
 }
 
 .Recent_heading {

@@ -92,8 +92,112 @@
         color: #29313D;
         line-height: 160%;
     }
-    
 
+
+
+    /* Service Part Ends */
+
+
+    /* Launch Part Ends */
+    #LaunchPart {
+        padding: 20px;
+    }
+    .launch_text h3 {
+        font-size: 23px;
+        font-weight: 600;
+        font-family: "Nunito", serif;
+        line-height: 140%;
+        color: #29313D;
+        padding-right: 0px;
+    }
+    .launch_text p {
+        font-size: 11px;
+        font-weight: 400;
+        font-family: "Nunito", serif;
+        line-height: 200%;
+        color: #29313D;
+        padding-right: 0px;
+    }
+    .txt_boxes p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 200%;
+    }
+    .w-100 {
+        width: 100% !important;
+        padding-top: 60px;
+    }
+    .subimg img {
+        height: 100%;
+        width: 50%;
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-top: 60px;
+    }
+    /* Launch Part Ends */
+
+
+    /* App Showcase Part Ends */
+    /* App Showcase Part Ends */
+
+    /* Trusted Part Ends */
+    #Trusted_Companies {
+        padding: 50px 0px;
+    }
+    .companiesbtn {
+        height: 0px;
+        width: 0px;
+        background: #fff;
+        border-radius: 0px;
+        color: #FDFDFD;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Companies_heading h3 {
+        font-family: "Poppins", serif;
+        font-size: 29px;
+        font-weight: 600;
+        line-height: 130%;
+    }
+
+    .Companies_img {
+        padding-top: 30px;
+        flex-wrap: wrap;
+    }
+    .CompaniesImg_Frames {
+	height: 60px;
+	width: 130px;
+	background: #F3F7FD;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 5px;
+}
+img, svg {
+	vertical-align: middle;
+	width: 80px;
+}
+    /* Trusted Part Ends */
+
+
+
+    /* Trusted Part Ends */
+    #Recent_Post {
+        padding: 70px 0px;
+    }
+    .Follow_heading_links {
+        opacity: 0;
+    }
+    /* Trusted Part Ends */
+
+
+    /* Service Part Ends */
+    /* Service Part Ends */
+    /* Service Part Ends */
     /* Service Part Ends */
 
 }
